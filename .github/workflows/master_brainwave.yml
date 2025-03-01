@@ -79,4 +79,12 @@ jobs:
         with:
           app-name: 'brainwave'
           slot-name: 'Production'
+          app-settings-json: |
+            [
+              {
+                "name": "WEBSITES_PORT",
+                "value": "3005",
+                "slotSetting": false
+              }
+            ]
           
